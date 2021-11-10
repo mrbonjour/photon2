@@ -109,7 +109,7 @@ function addLoadEvent(func)
     }
 //VARIABLES
 var interval;
-var screen=28;
+var screen=0;
 var health=100;
 var position_x=76;
 var position_y=222;
