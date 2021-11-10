@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Photons2</title>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Photons2">
+<meta name="description" content="Game">
+<link rel="icon" type="image/png" href="favicon.png"> 
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="manifest" href="manifest.manifest">
+</head>
+<body onload="">
+<div class="maindiv" id="maindiv">
+<div class="canvasdiv" id="canvasdiv">
+<canvas class="canvas"id="canvas" width="360" height="360">
+Your web browser does not support canvas.
+</canvas>
+</div>
+<div id="buttons">
+<button class='restartbutton' ontouchstart='restart();' onclick='restart();' style='position:absolute; top:605px; left: 0px; width:100%; height: 40px; background-color:red; color:white; '>
+<canvas class="buttonrestart"id="buttonrestart" width="360" height="40">
+</canvas>
+</button>
+<button class='actionbutton' ontouchstart='' ontouchend='' style='position:absolute; top:365px; left: 0px; width:120px; height: 120px; background-color:blue; '>
+<canvas class="buttonaction"id="buttonaction" width="120" height="120">
+</canvas>
+</button>
+<button class='firebutton' ontouchstart='' ontouchend='' style='position:absolute; top:365px; left: 240px; width:120px; height: 120px; background-color:orange; '>
+<canvas class="buttonfire"id="buttonfire" width="120" height="120">
+</canvas>
+</button>
+<button class='upbutton' ontouchstart='' ontouchend='' style='position:absolute; top:365px; left: 120px; width:120px; height: 120px; background-color:black; '>
+<canvas class="buttonup"id="buttonup" width="120" height="120">
+</canvas>
+</button>
+<button class='downbutton' ontouchstart='' ontouchend='' style='position:absolute; top:485px; left: 120px; width:120px; height: 120px; background-color:black; '>
+<canvas class="buttondown"id="buttondown" width="120" height="120">
+</canvas>
+</button>
+<button class='leftbutton' ontouchstart='' ontouchend='' style='position:absolute; top:485px; left: 0px; width:120px; height: 120px; background-color:black; '>
+<canvas class="buttonleft"id="buttonleft" width="120" height="120">
+</canvas>
+</button>
+<button class='rightbutton' ontouchstart='velocity_right=1' ontouchend='velocity_right=0' style='position:absolute; top:485px; left: 240px; width:120px; height: 120px; background-color:black; '>
+<canvas class="buttonright"id="buttonright" width="120" height="120">
+</canvas>
+</button>
+</div>
+</div>
+</div><!-- maindiv -->
+<footer><!-- cookies policy, license --></footer>
+</body>
+<script type="text/javascript" src="buttons.js" ></script>
+<script type="text/javascript" src="main.js" ></script>
+</html>
